@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 :root {
     font-size: 16px;
     font-family: system-ui;
@@ -50,6 +52,11 @@ img {
     width: 3rem;
     min-width: 2rem;
     margin: 0 1rem;
+    color: var(--icon-secondary);
+    transition: color 0.3s;
+}
+
+.icon-link svg:hover {
     color: var(--icon-primary);
 }
 
@@ -90,6 +97,17 @@ nav a:hover {
     height: 250px;
     border-radius: 50%;
     object-fit: cover;
+}
+
+/* List of Publications */
+
+.publications {
+    list-style: none;
+    padding-left: 0;
+}
+
+.publications li {
+    margin-bottom: 1em;
 }
 
 /* Resume-style bullets */
