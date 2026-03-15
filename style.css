@@ -99,6 +99,17 @@ nav a:hover {
     object-fit: cover;
 }
 
+/* List of Publications */
+
+.publications {
+    list-style: none;
+    padding-left: 0;
+}
+
+.publications li {
+    margin-bottom: 1em;
+}
+
 /* Resume-style bullets */
 
 .bullet {
