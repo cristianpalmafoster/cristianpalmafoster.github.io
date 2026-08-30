@@ -99,6 +99,28 @@ nav a:hover {
     object-fit: cover;
 }
 
+/* News Badge */
+
+#news {
+    border-left: 3px solid var(--icon-primary);
+    padding-left: 16px;
+}
+
+.news-date {
+    font-weight: bold;
+}
+
+.news-badge {
+    font-size: 0.7em;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 2px 6px;
+    margin: 0 6px;
+    border-radius: 4px;
+    background: var(--icon-primary);
+    color: black;
+}
+
 /* List of Publications */
 
 .publications {
