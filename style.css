@@ -90,6 +90,11 @@ nav a:hover {
     color: var(--icon-primary);
 }
 
+h3 a,
+h3 a:visited {
+    color: white;
+}
+
 /* Portrait */
 
 .portrait {
